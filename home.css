@@ -1,0 +1,21 @@
+.main
+{   
+    height: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    color: black;
+    background-color: white ;
+    text-align: center;
+}
+.main h2{
+    color: black;
+}
+p
+{
+    font-size: larger;
+}
+.main h3{
+    color:black;
+    font-size: larger;
+    font-weight: bolder;
+}

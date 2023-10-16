@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        img {
+            border-radius: 10px;
+        }
+
+        .speakers {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around; /* Adjust spacing between speakers */
+            text-align: center;
+        }
+
+        .speaker {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .speaker img {
+            width: 150px;
+            height: 130px;
+            margin-top: 10px;
+        }
+
+        h3, h4 {
+            position: relative;
+            margin: 0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="https://vce.ac.in"><img src="./logo.png" style="width: 80px; height: 80px;"></a>
+        <a href="./index1.html">HOME</a>
+        <a href="./about.html">ABOUT US</a>
+        <a href="./schedule.html">SCHEDULE</a>
+        <a href="./speakers.html">SPEAKERS</a>
+        <a href="./imp_dates.html">IMPORTANT DATES</a>
+        <a href="./registration.html">REGISTRATION</a>
+        <a href="./contact.html">CONTACT US</a>
+    </nav>
+    <div class="speakers">
+        <div class="speaker">
+            <h2>Chief Guest</h2>
+            <h3>Dr. Ramchandram</h3>
+            <img src="./VC.jpeg" alt="Guest pic">
+            <h4>Vice-Chancellor<br>Anurag University, Hyderabad</h4>
+        </div>
+        <div class="speaker">
+            <h3>Distinguished Guest and Keynote Speaker</h3>
+            <h3>Dr. Roman Senkerik</h3>
+            <img src="./dguest.png" alt="">
+            <h4>Head of AI lab<br>Tomas Bata University in Zlin, Czech Republic<br>Faculty of Applied Informatics<br>Department of Informatics and Artificial Intelligence</h4>
+        </div>
+    </div>
+    <footer>
+        <h3>Conference Sponsor</h3>
+        <img src="./teklogo.jpg" alt="" height="110px" width="150px">
+    </footer>
+</body>
+</html>
